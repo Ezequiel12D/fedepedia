@@ -1,0 +1,1 @@
+Aqui iran los archivos que se utilizaran para darle forma a la pagina a partir de informacion en la base de datos que si pasa por jquery (responsive)

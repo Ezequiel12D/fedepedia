@@ -6,14 +6,28 @@
     width: 100%;
 }
 
-#sidebar {
+#left-bar {
     border-right: 1px black solid;
     width: 17%;
     height: 100%;
     position: fixed;
 }
 
-#lh-1 {
+#center-bar1 {
+    border-right: 1px black solid;
+    margin-left: 20%;
+    width: 60%;
+    height: 100%;
+    position: fixed;
+}
+
+#right-bar {
+    margin-left: 80%;
+    position: fixed;
+    background-color: red;
+}
+
+.lh {
     top: 25%;
     border-top: 1px black solid;
     position: fixed;
@@ -23,5 +37,26 @@
 
 #search-bar {
     top: 27%;
+    width: 17%;
     position: fixed;
+}
+
+#link-bar {
+    top: 40%;
+    position: fixed;
+}
+
+#bienvenida{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    height: 150px;
+    width: 85%;
+    position: relative;
+}
+
+#user_profile {
+    background-color: red;
+    position: fixed;
+
 }
