@@ -1,0 +1,27 @@
+.container-logo {
+    margin: 20px;
+}
+
+.img-logo {
+    width: 100%;
+}
+
+#sidebar {
+    border-right: 1px black solid;
+    width: 17%;
+    height: 100%;
+    position: fixed;
+}
+
+#lh-1 {
+    top: 25%;
+    border-top: 1px black solid;
+    position: fixed;
+    width: 15%;
+    margin-left: 1%;
+}
+
+#search-bar {
+    top: 27%;
+    position: fixed;
+}
