@@ -1,1 +1,1 @@
-Aqui iran las modificaciones de aspecto de la pagina 
+Aqui iran las modificaciones de aspecto de la pagina que todas iran en style_layout.css
