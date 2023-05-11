@@ -1,6 +1,3 @@
-<?php include_once ("layout.php"); ?>
-
-
 <div id="left-bar">
     
     <div class="container-logo">
@@ -36,55 +33,23 @@
 
 </div>
 
-<div id="center-bar">
-    <div id="bienvenida">
-        <div class="float-right lol">Hay xxxxxx articulos</div>
-
-        <h2>Bienvenido a Fedepedia</h2>
-        <p>
-            Fedepedia es una pagina donde nos preocupamos por darle la mejor experiencia en la consulta de articulos online.<br>
-            Trataremos de mostrarle un nuevo mundo de posivilidades, leera los articulos creados directamente por los usuarios.
-        </p>        
-    </div>
-    <div id="article-0" class="articles">articulo</div>
+<div id="container__article">
+    <?php require"article.php";?>
 </div>
 
 
-<div id="right-bar">
-    <div class="profile-pic-btn">
+    <div id="right-bar">        
+        <div class="container--menu-btn" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+    <script>function myFunction(x) {x.classList.toggle("change");} </script>
+
+    <div class="profile-pic-btn">    
         <div id="user_profile_pic"><img src="../images/profile/default.png" alt="profile_pic"></div>
-        <i class="bi bi-three-dots"></i>
     </div>
+    <div id="user-name"><b>user-name</b></div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="../js/jquery/bootstrap.min.js"></script>
-<script src="../js/jquery/jquery-3.4.1.slim.min.js"></script>
-<script src="../js/jquery/popper.min.js"></script>
+</div>

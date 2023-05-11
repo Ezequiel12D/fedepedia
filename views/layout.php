@@ -11,6 +11,13 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="container">
+        <?php require_once "home.php"; ?>
+    </div>
     
+
+    <script src="../js/jquery/bootstrap.min.js"></script>
+    <script src="../js/jquery/jquery-3.4.1.slim.min.js"></script>
+    <script src="../js/jquery/popper.min.js"></script>
 </body>
 </html>

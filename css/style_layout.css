@@ -13,12 +13,11 @@
     position: fixed;
 }
 
-#center-bar {
-    border-right: 1px black solid;
+#container__article {
     margin-left: 17%;
     width: 60%;
     height: 100%;
-    position: fixed;
+    position:absolute;
 }
 
 #center-bar #bienvenida {
@@ -28,11 +27,11 @@
 }
 
 #right-bar {
-    width: 30%;
+    border-left: 1px black solid;
+    width: -webkit-fill-available;
     height: 100%;
     margin-left: 77%;
-    position: fixed;
-    background-color: rgb(226, 217, 217);    
+    position: fixed;       
 }
 
 .lh {
@@ -60,23 +59,55 @@
     position: relative;    
 }
 
-.profile-pic-btn{
-    margin-top: 15px;
+.profile-pic-btn{    
     
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 5%;
+    margin-top: 15px;
+    height: fit-content;
     width: 100%;
 }
 
+#right-bar #user-name {    
+    margin-top: 5px;
+    position:relative;
+    display: flex;
+    justify-content: center;    
+}
+
 .profile-pic-btn #user_profile_pic img {
-    height: 50px;
-    width: 50px;
+    
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
 }
 
 #articles{
     margin-top: 10%;
 }
+
+.container--menu-btn{
+    margin-top: 15px;
+    margin-left: 87%;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
