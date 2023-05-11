@@ -118,3 +118,7 @@
     background-attachment: fixed; 
     background-size: 100% 100%;
   }
+
+  #link-bar a {
+    color: inherit;
+  }

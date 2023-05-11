@@ -1,7 +1,9 @@
 <div id="left-bar">
     
     <div class="container-logo">
-        <img src="../images/logo.png" class="rounded float-left img-logo" alt="img_logo">
+        <a href="">
+            <img src="../images/logo.png" class="rounded float-left img-logo" alt="img_logo">
+        </a>        
     </div>
     
     <div class="lh"></div>
