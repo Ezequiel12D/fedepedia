@@ -13,7 +13,7 @@
     position: fixed;
 }
 
-#container__article {
+#container__center {
     margin-left: 17%;
     width: 60%;
     height: 100%;
@@ -110,4 +110,11 @@
   
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
+  }
+
+  body {
+    background-image: url('../images/otros/fondo.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
   }

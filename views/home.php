@@ -20,7 +20,7 @@
             <li><a href="">Portada</a></li>
             <li><a href="">Articulos destacados</a></li>
             <li><a href="">Articulos nuevos</a></li>
-            <li><a href="">Articulo aleatorio/a></li>
+            <li><a href="">Articulo aleatorio</li>
             <li><a href="">Configuracion</a></li>
             <li><a href="">Crear articulo</a></li>
             <li><a href="">Mis articulos</a></li>
@@ -33,7 +33,7 @@
 
 </div>
 
-<div id="container__article">
+<div id="container__center">
     <?php require"article.php";?>
 </div>
 
@@ -45,6 +45,8 @@
         <div class="bar3"></div>
     </div>
     <script>function myFunction(x) {x.classList.toggle("change");} </script>
+
+
 
     <div class="profile-pic-btn">    
         <div id="user_profile_pic"><img src="../images/profile/default.png" alt="profile_pic"></div>
