@@ -1,5 +1,5 @@
 .container-logo {
-    margin: 20px;
+    margin: 5%;
 }
 
 .img-logo {
@@ -13,18 +13,26 @@
     position: fixed;
 }
 
-#center-bar1 {
+#center-bar {
     border-right: 1px black solid;
-    margin-left: 20%;
+    margin-left: 17%;
     width: 60%;
     height: 100%;
     position: fixed;
 }
 
+#center-bar #bienvenida {
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 #right-bar {
-    margin-left: 80%;
+    width: 30%;
+    height: 100%;
+    margin-left: 77%;
     position: fixed;
-    background-color: red;
+    background-color: rgb(226, 217, 217);    
 }
 
 .lh {
@@ -47,16 +55,28 @@
 }
 
 #bienvenida{
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 10%;
     height: 150px;
-    width: 85%;
-    position: relative;
+    width: 100%;
+    position: relative;    
 }
 
-#user_profile {
-    background-color: red;
-    position: fixed;
+.profile-pic-btn{
+    margin-top: 15px;
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    height: 5%;
+    width: 100%;
+}
+
+.profile-pic-btn #user_profile_pic img {
+    height: 50px;
+    width: 50px;
+}
+
+#articles{
+    margin-top: 10%;
 }

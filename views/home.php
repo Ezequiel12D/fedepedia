@@ -36,7 +36,7 @@
 
 </div>
 
-<div id="center-bar1">
+<div id="center-bar">
     <div id="bienvenida">
         <div class="float-right lol">Hay xxxxxx articulos</div>
 
@@ -46,13 +46,14 @@
             Trataremos de mostrarle un nuevo mundo de posivilidades, leera los articulos creados directamente por los usuarios.
         </p>        
     </div>
-    <div>articulo</div>
+    <div id="article-0" class="articles">articulo</div>
 </div>
 
 
 <div id="right-bar">
-    <div>
-        <div id="user_profile" class="float-left">asdf</div>
+    <div class="profile-pic-btn">
+        <div id="user_profile_pic"><img src="../images/profile/default.png" alt="profile_pic"></div>
+        <i class="bi bi-three-dots"></i>
     </div>
 </div>
 
