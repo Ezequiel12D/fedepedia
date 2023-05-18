@@ -28,7 +28,7 @@
             <li><a href="">Mis articulos</a></li>
             <li><a href="">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
-            <li><a href="">Ayuda</a></li>
+            <li><a href="../views/help.php">Ayuda</a></li>
             <li><a href="">DENUNCIAS</a></li>
         </ul>
     </div>
