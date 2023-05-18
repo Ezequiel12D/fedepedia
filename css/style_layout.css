@@ -122,3 +122,15 @@
   #link-bar a {
     color: inherit;
   }
+  #buscador {
+    border-radius: 20px;
+    width: 500px;
+    position: fixed;
+    margin-left: 35%;
+    margin-top: 40px;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+  }
+  
+
+   
