@@ -1,3 +1,5 @@
+<?php include_once ("layout.php"); ?>
+
 <div id="left-bar">
     
     <div class="container-logo">
