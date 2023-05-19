@@ -5,8 +5,8 @@ body {
 }
 
 header {
-    background-color: #2f2f2f;
-    color: #ffffff;
+    background-color: #f5f5f5;
+    color: #333333;
     display: flex;
     align-items: center;
     height: 100px;
@@ -14,7 +14,7 @@ header {
 }
 
 .logo-container {
-    width: 100px;
+    width: 200px;
 }
 
 .logo-container img {
@@ -25,7 +25,7 @@ header {
 .title {
     font-size: 1.5em;
     margin-left: 20px;
-    text-align: center;
+    text-align: right;
 }
 
 .sidebar {
@@ -50,7 +50,7 @@ header {
 
 .menu li a {
     display: block;
-    color: #2f2f2f;
+    color: #333333;
     text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ textarea {
     margin: 10px 0;
     padding: 5px;
     width: 100%;
-    border: 2px solid #2f2f2f;
+    border: 2px solid #cccccc;
     border-radius: 5px;
 }
 
@@ -89,7 +89,7 @@ textarea {
 }
 
 #preview {
-    border: 1px solid #ccc;
+    border: 1px solid #cccccc;
     padding: 10px;
     margin-top: 10px;
     font-size: 14px;
@@ -98,18 +98,33 @@ textarea {
 
 button[type="submit"],
 button[type="button"] {
-    background-color: #2f2f2f;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
     margin: 10px 0;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+    background-color: #cccccc;
+}
+
+button[type="submit"]:hover {
+    background-color: #5cb85c;
+}
+
+button[type="button"] {
+    background-color: #cccccc;
+}
+
+button[type="button"]:hover {
+    background-color: #d9534f;
 }
 
 .centrado {
     position: flex;
     margin: 250px 0 0 850px;
-    
     transform: translate(-50%, -50%);
 }
