@@ -2,7 +2,6 @@
   <title>Subida de publicaciones</title>
   <link rel="stylesheet" type="text/css" href="../css/style_create_article.css">
 </head>
-
 <body>
   <header>
     <div class="logo-container">
