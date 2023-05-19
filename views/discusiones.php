@@ -10,8 +10,9 @@
 </head>
 
 <body>
-    <input type="search" placeholder="Busca tu Archivo" id="buscador" />
 
+    <input type="search" placeholder="Busca tu Archivo" id="buscador" />
+    <input type="text" placeholder="Discusion" id="discusion-text" />
     <div id="left-bar">
         <div class="container-logo">
             <a href="">
@@ -20,7 +21,7 @@
         </div>
         <div id="search-bar">
         </div>
-        <div class="lh" style="top:35%"></div>
+        <div class="lh" style="top:25%"></div>
     </div>
     </div>
     <div id="right-bar">
