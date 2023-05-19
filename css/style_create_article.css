@@ -125,6 +125,6 @@ button[type="button"]:hover {
 
 .centrado {
     position: flex;
-    margin: 250px 0 0 850px;
+    margin: 250px 0 0 550px;
     transform: translate(-50%, -50%);
 }

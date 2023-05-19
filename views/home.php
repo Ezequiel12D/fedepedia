@@ -49,6 +49,14 @@
         <div class="bar3"></div>
     </div>
     <script>function myFunction(x) {x.classList.toggle("change");} </script>
+    <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <h2>Iniciar sesión o registrarse</h2>
+      <button onclick="login()">Iniciar sesión</button>
+      <button onclick="register()">Registrarse</button>
+    </div>
+  </div>
 
 
 

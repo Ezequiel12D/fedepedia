@@ -3,7 +3,11 @@ document.getElementById("upload-form").addEventListener("submit", function (even
 
     var domain = window.location.hostname;
 
-    alert("¡Publicación subida con éxito en " + domain + "!");
+    customAlert("¡Publicación subida con éxito en " + domain + "!");
 
     window.location.href = "../views/";
 });
+function customAlert(message) {
+    var modifiedMessage = message.replace(/localhost/g, 'FedePedia');
+    window.alert(modifiedMessage);
+}
