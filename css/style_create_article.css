@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    padding: 0 20px;
+}
+
+.logo-container {
+    width: 100px;
+}
+
+.logo-container img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.sidebar {
+    background-color: #f1f1f1;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu li a {
+    display: block;
+    color: #2f2f2f;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.form-container {
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+    border: 2px solid #2f2f2f;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    caret-color: transparent;
+}
+
+#preview {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+button[type="submit"],
+button[type="button"] {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}

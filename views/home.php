@@ -26,7 +26,7 @@
             <li><a href="">Articulos nuevos</a></li>
             <li><a href="">Articulo aleatorio</li>
             <li><a href="">Configuracion</a></li>
-            <li><a href="">Crear articulo</a></li>
+            <li><a href="../views/create_article.php">Crear articulo</a></li>
             <li><a href="">Mis articulos</a></li>
             <li><a href="">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
