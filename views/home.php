@@ -1,7 +1,12 @@
 <?php include_once("layout.php"); ?>
 
+<<<<<<< HEAD
 <div id="left-bar">
 
+=======
+<div id="left-bar">         
+    
+>>>>>>> a6fd9fb5c25d8ea20c5c18dde0d2bafb30412b8b
     <div class="container-logo">
         <a href="">
             <img src="../images/logo.png" class="rounded float-left img-logo" alt="img_logo">
@@ -26,11 +31,15 @@
             <li><a href="">Articulos nuevos</a></li>
             <li><a href="">Articulo aleatorio</li>
             <li><a href="">Configuracion</a></li>
+<<<<<<< HEAD
             <li><a href="../views/createarticles.php">Crear articulo</a></li>
+=======
+            <li><a href="../views/create_article.php">Crear articulo</a></li>
+>>>>>>> a6fd9fb5c25d8ea20c5c18dde0d2bafb30412b8b
             <li><a href="">Mis articulos</a></li>
             <li><a href="">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
-            <li><a href="">Ayuda</a></li>
+            <li><a href="../views/help.php">Ayuda</a></li>
             <li><a href="">DENUNCIAS</a></li>
         </ul>
     </div>
@@ -48,11 +57,23 @@
         <div class="bar2"></div>
         <div class="bar3"></div>
     </div>
+<<<<<<< HEAD
     <script>
         function myFunction(x) {
             x.classList.toggle("change");
         }
     </script>
+=======
+    <script>function myFunction(x) {x.classList.toggle("change");} </script>
+    <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <h2>Iniciar sesión o registrarse</h2>
+      <button onclick="login()">Iniciar sesión</button>
+      <button onclick="register()">Registrarse</button>
+    </div>
+  </div>
+>>>>>>> a6fd9fb5c25d8ea20c5c18dde0d2bafb30412b8b
 
 
 
