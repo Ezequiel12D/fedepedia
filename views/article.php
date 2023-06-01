@@ -5,7 +5,7 @@
         <h2>Bienvenido a Fedepedia</h2>
         <p>
             Fedepedia es una pagina donde nos preocupamos por darle la mejor experiencia en la consulta de articulos online.<br>
-            Trataremos de mostrarle un nuevo mundo de posivilidades, leera los articulos creados directamente por los usuarios.
+            Trataremos de mostrarle un nuevo mundo de posibilidades, leera los articulos creados directamente por los usuarios.
         </p>        
     </div>
 </div>

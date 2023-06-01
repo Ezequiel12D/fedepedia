@@ -26,7 +26,7 @@
             <li><a href="">Articulos nuevos</a></li>
             <li><a href="">Articulo aleatorio</li>
             <li><a href="">Configuracion</a></li>
-            <li><a href="">Crear articulo</a></li>
+            <li><a href="../views/create_article.php">Crear articulo</a></li>
             <li><a href="">Mis articulos</a></li>
             <li><a href="">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
@@ -49,6 +49,14 @@
         <div class="bar3"></div>
     </div>
     <script>function myFunction(x) {x.classList.toggle("change");} </script>
+    <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">&times;</span>
+      <h2>Iniciar sesión o registrarse</h2>
+      <button onclick="login()">Iniciar sesión</button>
+      <button onclick="register()">Registrarse</button>
+    </div>
+  </div>
 
 
 
