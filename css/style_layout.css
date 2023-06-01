@@ -155,16 +155,19 @@ body {
 }
 
 .button-container button {
-    position: absolute;
-    left: 900px;
+    position: fixed;
+    left: 1050px;
     margin-top: 160px;
 }
 
 .button-container .btn-add {
-    left: 1000px;
+    left: 1150px;
 }
-.low-btn-container{
+.low-btn-container button{
     position: absolute;
-    left: 920px;
-    margin-top: 50%;
+    margin-top: 170%;
+    right: 170%;
+}
+.low-btn-container .btn-send{
+    right: 600px;
 }

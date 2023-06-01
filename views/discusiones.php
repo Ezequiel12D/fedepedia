@@ -25,14 +25,9 @@
         <textarea class="form-control" rows="10" aria-label="With textarea"></textarea>
     </div>
 
-    </div>
     <div class="button-container">
         <button class="btn btn-primary">Editar</button>
         <button class="btn-add btn btn-primary">Añadir</button>
-    </div>
-    <div class="low-btn-container">
-        <button class="btn btn-primary">Cancelar</button>
-        <button class="btn btn-primary">Enviar</button>
     </div>
     <div id="left-bar">
         <div class="container-logo">
@@ -51,6 +46,11 @@
             <div class="bar2"></div>
             <div class="bar3"></div>
         </div>
+        <div class="low-btn-container">
+            <button class="btn btn-primary">Cancelar</button>
+            <button class="btn-send btn btn-primary">Enviar</button>
+        </div>
+
         <script>
             function myFunction(x) {
                 x.classList.toggle("change");
