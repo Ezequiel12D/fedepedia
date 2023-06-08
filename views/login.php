@@ -1,4 +1,4 @@
-<!doctype>
+<!doctype html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -24,8 +24,9 @@
                         <div class="bd-example-snippet bd-code-snippet" text-align:center>
                         <a href="../views/layout.php"><img id="" src="../images/logo.png" width="325" height="200" ></a>
                             <br>
+                            <form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;" class="form-control">
+                            <h2>Iniciar sesion</h2>
                             <br>
-                            <form>
                                 <div class="center">
                                     <div class="form-floating mb-3">
                                         <div class="label-input">
@@ -43,12 +44,12 @@
                                         <h3><input type="submit" value="Acceder" class="btn btn-primary"></h3>
                                     </div>
                                 </div>
-                            </form>
-                            <h5><a  href="" style="color:red"
- type="button" class="--bs-primary-text-emphasis">¿Olvidaste tu contraseña?</a></h5>
+                           
+                            <h5><a  href="" style="color:red" type="button" class="--bs-primary-text-emphasis">¿Olvidaste tu contraseña?</a></h5>
                             <br>
-                            <h3><a href="" role="button" class="btn btn-success">Crear cuenta</a></h3>
+                            <h3><a href="register.php" role="button" class="btn btn-success">Crear cuenta</a></h3>
                         </div>
+                        </form>
                     </div>
                 </center>
             </div>
@@ -56,3 +57,8 @@
     </body>
 </html>
  
+
+
+
+
+
