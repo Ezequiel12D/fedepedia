@@ -1,3 +1,8 @@
+<!Doctype html>
+<html>
+    <head>
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">   
+    <title>Articulo</title> 
     <div id="center-bar">
     <div id="bienvenida">
         <div class="float-right lol">Hay xxxxxx articulos</div>
@@ -11,3 +16,6 @@
     </div>
 </div>
 <div></div>
+</head>
+<body></body>
+</html>

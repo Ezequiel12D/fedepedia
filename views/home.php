@@ -1,7 +1,7 @@
 <?php include_once("layout.php"); ?>
 
 <div id="left-bar">
-
+<link rel="icon" type="image/x-icon" href="../images/logo.png">
     <div class="container-logo">
         <a href="">
             <img src="../images/logo.png" class="rounded float-left img-logo" alt="img_logo">

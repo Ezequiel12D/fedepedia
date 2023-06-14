@@ -1,6 +1,8 @@
 <body>
     <header>
+    <title>Crear articulo</title> 
         <div class="logo-container">
+            <link rel="icon" type="image/x-icon" href="../images/logo.png">
             <link rel="stylesheet" href="../css/style_createarticles.css">
             <img src="../images/logo.png" alt="Logo">
         </div>
