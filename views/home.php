@@ -22,13 +22,13 @@
     <div id="link-bar">
         <ul>
             <li><a href="">Portada</a></li>
-            <li><a href="">Articulos destacados</a></li>
-            <li><a href="">Articulos nuevos</a></li>
-            <li><a href="">Articulo aleatorio</li>
-            <li><a href="">Configuracion</a></li>
+            <li><a href="../views/articlefeatured.php">Articulos destacados</a></li>
+            <li><a href="../views/articlenews.php">Articulos nuevos</a></li>
+            <li><a href="../views/articlerandom.php">Articulo aleatorio</li>
+            <li><a href="../views/setting.php">Configuracion</a></li>
             <li><a href="../views/createarticles.php">Crear articulo</a></li>
-            <li><a href="">Mis articulos</a></li>
-            <li><a href="">Articulos guardados</a></li>
+            <li><a href="../views/myarticles.php">Mis articulos</a></li>
+            <li><a href="../views/savedarticles.php">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
             <li><a href="../views/help.php">Ayuda</a></li>
             <li><a href="">DENUNCIAS</a></li>

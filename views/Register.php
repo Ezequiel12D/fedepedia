@@ -71,8 +71,8 @@
                     </div>  
                 </div>
         </form>
-        <br>
-     </center>
+    </br> 
+            </center>
      </div>
     </center>
 </body>
