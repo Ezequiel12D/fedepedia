@@ -31,7 +31,7 @@
             <li><a href="../views/savedarticles.php">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
             <li><a href="../views/help.php">Ayuda</a></li>
-            <li><a href="">DENUNCIAS</a></li>
+            <li><a href="../views/denuncias.php">DENUNCIAS</a></li>
         </ul>
     </div>
 
