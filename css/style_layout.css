@@ -121,10 +121,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-<<<<<<< HEAD
-  }
-=======
 }
+
 
 #link-bar a {
     color: inherit;
@@ -149,7 +147,7 @@ body {
     outline: none;
 }
 
-.textarea-descript  {
+.textarea-descript {
     margin-left: 35%;
     position: fixed;
     width: 500px;
@@ -166,12 +164,13 @@ body {
 .button-container .btn-add {
     left: 1150px;
 }
-.low-btn-container button{
+
+.low-btn-container button {
     position: absolute;
     margin-top: 170%;
     right: 170%;
 }
-.low-btn-container .btn-send{
+
+.low-btn-container .btn-send {
     right: 600px;
 }
->>>>>>> a6fd9fb5c25d8ea20c5c18dde0d2bafb30412b8b

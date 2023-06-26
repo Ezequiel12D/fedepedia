@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html><head>
 <title>Registrarse</title>
@@ -17,12 +16,13 @@
         }
 
 
-        .label-input {
-            display: flex;
-            justify-content: space-between;
-        }  
-    </style>
+                .label-input {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            </style>
 </head>
+
 <body>
     <center>
         <br>
@@ -70,10 +70,10 @@
                             <h3><input type="submit" value="Enviar" id="reg-btn" class="btn btn-success"></h3>                                                                          
                     </div>  
                 </div>
-        </form>
-    </br> 
+                </form>
+                </br>
             </center>
-     </div>
+        </div>
     </center>
 </body>
 

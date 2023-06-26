@@ -1,7 +1,7 @@
 <?php include_once("layout.php"); ?>
 
 <div id="left-bar">
-<link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
     <div class="container-logo">
         <a href="">
             <img src="../images/logo.png" class="rounded float-left img-logo" alt="img_logo">
@@ -31,7 +31,7 @@
             <li><a href="../views/savedarticles.php">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
             <li><a href="../views/help.php">Ayuda</a></li>
-            <li><a href="">DENUNCIAS</a></li>
+            <li><a href="../views/denuncias.php">DENUNCIAS</a></li>
         </ul>
     </div>
 
@@ -48,15 +48,19 @@
         <div class="bar2"></div>
         <div class="bar3"></div>
     </div>
-    <script>function myFunction(x) {x.classList.toggle("change");} </script>
+    <script>
+        function myFunction(x) {
+            x.classList.toggle("change");
+        }
+    </script>
     <div id="modal" class="modal">
-    <div class="modal-content">
-      <span class="modal-close" onclick="closeModal()">&times;</span>
-      <h2>Iniciar sesión o registrarse</h2>
-      <button onclick="login()">Iniciar sesión</button>
-      <button onclick="register()">Registrarse</button>
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <h2>Iniciar sesión o registrarse</h2>
+            <button onclick="login()">Iniciar sesión</button>
+            <button onclick="register()">Registrarse</button>
+        </div>
     </div>
-  </div>
 
 
 
