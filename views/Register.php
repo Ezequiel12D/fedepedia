@@ -32,42 +32,42 @@
                     <div class="bd-example-snippet bd-code-snippet" text-align:center>
                         <a href="../views/layout.php"><img id="" src="../images/logo.png" width="325" height="200"></a>
                         <br>
-                        <form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;" class="form-control">
+                        <form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;" class="form-control" id="reg-form">
                         <h2>Registrarse</h2>
                         <br>
                             <div class="center">
                                 <div class="form-floating mb-3">
                                     <div class="label-input">
                                         <!--<label for="floatingInput">Nombre de usuario:</label>-->
-                                        <input type="text" class="form-control" id="Nombre" placeholder="nombre ">
+                                        <input type="text" class="form-control" id="Name" placeholder="nombre ">
                                     </div>
                                     <br>
                                     <div class="label-input">    
-                                        <input type="text" class="form-control" id="NombreUsuario" placeholder="nombre de usuario">
+                                        <input type="text" class="form-control" id="Username" placeholder="nombre de usuario">
                                     </div>
                                     <br>
                                     <div class="label-input">
-                                        <input type="email" class="form-control" id="CorreoElectronico" placeholder="correo electronico">
+                                        <input type="email" class="form-control" id="Email" placeholder="correo electronico">
                                     </div>
                                     <br>
                                     <div class="label-input">
                                         <!-- <label for="floatingpassword">Contraseña:</label>-->
-                                        <input type="password" class="form-control" id="password" placeholder="contraseña">
+                                        <input type="password" class="form-control" id="Password" placeholder="contraseña">
                                     </div>
                                     <br>
                                     <div class="label-input">
-                                        <input type="password" class="form-control" id="Repetirpassword" placeholder="repetir contraseña">
+                                        <input type="password" class="form-control" id="confirmpass" placeholder="repetir contraseña">
                                     </div>
                                     <br>
                                 </div>
                                     <div>
-                                         <input type="date" class="form-control1" id="Fecha">
-                                         <input type="list" class="form-control1" id="Genero" placeholder="genero">
+                                         <input type="date" class="form-control1" id="Date">
+                                         <input type="list" class="form-control1" id="Gender" placeholder="genero">
                            
                                     </div>
                             </div>
                             <br>  
-                            <h3><input type="submit" value="Enviar" class="btn btn-success"></h3>                                                                          
+                            <h3><input type="submit" value="Enviar" id="reg-btn" class="btn btn-success"></h3>                                                                          
                     </div>  
                 </div>
         </form>
@@ -77,5 +77,5 @@
     </center>
 </body>
 
-
-</html>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="../js/register.js"></script>
