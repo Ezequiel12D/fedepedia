@@ -36,6 +36,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <img src="../images/logo.png" alt="logo" class="logo-img">
             <h1 class="header-title">Reporte de Contenido</h1>
+        </nav>
     </header>
     <div class="container">
         <div class="row justify-content-center">
