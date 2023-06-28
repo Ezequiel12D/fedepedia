@@ -52,7 +52,7 @@
 
                             <h5><a href="" style="color:red" type="button" class="--bs-primary-text-emphasis">¿Olvidaste tu contraseña?</a></h5>
                             <br>
-                            <h3><a href="register.php" role="button" class="btn btn-success">Crear cuenta</a></h3>
+                            <h3><a href="register.php" role="button" class="btn btn-success">Registrarse</a></h3>
                     </div>
                     </form>
                 </div>
