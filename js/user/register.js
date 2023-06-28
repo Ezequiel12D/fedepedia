@@ -42,7 +42,7 @@ $(document).ready(function () {
         }else{
             flag.email = false;
         }//contraseña
-        if(passwordValue.length > 4 && passwordValue.length < 60 && ValidUserName.test(passwordValue) && password.value == confirmValue){
+        if(passwordValue.length > 4 && passwordValue.length < 40 && ValidUserName.test(passwordValue) && password.value == confirmValue){
             flag.password = true;
         }else{
             flag.password = false;

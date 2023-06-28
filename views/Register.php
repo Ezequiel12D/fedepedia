@@ -39,30 +39,30 @@
                                 <div class="form-floating mb-3">
                                     <div class="label-input">
                                         <!--<label for="floatingInput">Nombre de usuario:</label>-->
-                                        <input type="text" class="form-control" id="Name" placeholder="nombre ">
+                                        <input type="text" class="form-control" id="Name" placeholder="nombre " required>
                                     </div>
                                     <br>
                                     <div class="label-input">    
-                                        <input type="text" class="form-control" id="Username" placeholder="nombre de usuario">
+                                        <input type="text" class="form-control" id="Username" placeholder="nombre de usuario" required>
                                     </div>
                                     <br>
                                     <div class="label-input">
-                                        <input type="email" class="form-control" id="Email" placeholder="correo electronico">
+                                        <input type="email" class="form-control" id="Email" placeholder="correo electronico" required>
                                     </div>
                                     <br>
                                     <div class="label-input">
                                         <!-- <label for="floatingpassword">Contraseña:</label>-->
-                                        <input type="password" class="form-control" id="Password" placeholder="contraseña">
+                                        <input type="password" class="form-control" id="Password" placeholder="contraseña" required>
                                     </div>
                                     <br>
                                     <div class="label-input">
-                                        <input type="password" class="form-control" id="confirmpass" placeholder="repetir contraseña">
+                                        <input type="password" class="form-control" id="confirmpass" placeholder="repetir contraseña" required>
                                     </div>
                                     <br>
                                 </div>
                                     <div>
                                          <input type="date" class="form-control1" id="Date">
-                                         <input type="list" class="form-control1" id="Gender" placeholder="genero">
+                                         <input type="list" class="form-control1" id="Gender" placeholder="genero" required>
                            
                                     </div>
                             </div>
@@ -78,4 +78,4 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="../js/register.js"></script>
+<script src="../js/user/register.js"></script>
