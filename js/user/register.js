@@ -42,7 +42,7 @@ $(document).ready(function () {
         }else{
             flag.email = false;
         }//contraseña
-        if(passwordValue.length > 4 && passwordValue.length < 60 && ValidUserName.test(passwordValue) && password.value == confirmValue){
+        if(passwordValue.length > 4 && passwordValue.length < 40 && ValidUserName.test(passwordValue) && password.value == confirmValue){
             flag.password = true;
         }else{
             flag.password = false;
@@ -74,6 +74,7 @@ $(document).ready(function () {
                 success:function(r){
                     if(r.message == "Se ha registrado correctamente"){                                
                         console.log(r);
+                        window.location.href = '../views/layout.php'; 
                     }else{
                         alert("Error al registrarce");
                         console.log(r);

@@ -1,10 +1,8 @@
-<?php include_once("layout.php"); ?>
-
 <div id="left-bar">
-    <link rel="icon" type="image/x-icon" href="../images/logo.png">
+    <link rel="icon" type="image/x-icon" href="../../images/logo.png">
     <div class="container-logo">
         <a href="">
-            <img src="../images/logo.png" class="rounded float-left img-logo" alt="img_logo">
+            <img src="../../images/logo.png" class="rounded float-left img-logo" alt="img_logo">
         </a>
     </div>
 
@@ -22,16 +20,16 @@
     <div id="link-bar">
         <ul>
             <li><a href="">Portada</a></li>
-            <li><a href="../views/articlefeatured.php">Articulos destacados</a></li>
-            <li><a href="../views/articlenews.php">Articulos nuevos</a></li>
-            <li><a href="../views/articlerandom.php">Articulo aleatorio</li>
-            <li><a href="../views/setting.php">Configuracion</a></li>
-            <li><a href="../views/createarticles.php">Crear articulo</a></li>
-            <li><a href="../views/myarticles.php">Mis articulos</a></li>
-            <li><a href="../views/savedarticles.php">Articulos guardados</a></li>
+            <li><a href="../../views/articlefeatured.php">Articulos destacados</a></li>
+            <li><a href="../../views/articlenews.php">Articulos nuevos</a></li>
+            <li><a href="../../views/articlerandom.php">Articulo aleatorio</li>
+            <li><a href="../../views/setting.php">Configuracion</a></li>
+            <li><a href="../../views/createarticles.php">Crear articulo</a></li>
+            <li><a href="../../views/myarticles.php">Mis articulos</a></li>
+            <li><a href="../../views/savedarticles.php">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
-            <li><a href="../views/help.php">Ayuda</a></li>
-            <li><a href="../views/denuncias.php">DENUNCIAS</a></li>
+            <li><a href="../../views/help.php">Ayuda</a></li>
+            <li><a href="../../views/denuncias.php">DENUNCIAS</a></li>
         </ul>
     </div>
 
@@ -65,7 +63,7 @@
 
 
     <div class="profile-pic-btn">
-        <div id="user_profile_pic"><img src="../images/profile/default.png" alt="profile_pic"></div>
+        <div id="user_profile_pic"><img src="../../images/profile/default.png" alt="profile_pic"></div>
     </div>
     <div id="user-name"><b>user-name</b></div>
 </div>

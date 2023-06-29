@@ -36,23 +36,23 @@
                                 <div class="form-floating mb-3">
                                     <div class="label-input">
                                         <!--<label for="floatingInput">Nombre de usuario:</label>-->
-                                        <input type="text" class="form-control" id="floatingInput" placeholder="nombre de usuario">
+                                        <input type="text" class="form-control" id="EmailUsername" placeholder="nombre de usuario">
                                     </div>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <div class="label-input">
                                         <!-- <label for="floatingpassword">Contraseña:</label>-->
-                                        <input type="password" class="form-control" id="floatingpassword" placeholder="contraseña">
+                                        <input type="password" class="form-control" id="Password" placeholder="contraseña">
                                     </div>
                                 </div>
                                 <div class="form-floating mb-3">
-                                    <h3><input type="submit" value="Acceder" class="btn btn-primary"></h3>
+                                    <h3><input type="submit" value="Acceder" class="btn btn-primary" id="login-btn"></h3>
                                 </div>
                             </div>
 
                             <h5><a href="" style="color:red" type="button" class="--bs-primary-text-emphasis">¿Olvidaste tu contraseña?</a></h5>
                             <br>
-                            <h3><a href="register.php" role="button" class="btn btn-success">Crear cuenta</a></h3>
+                            <h3><a href="register.php" role="button" class="btn btn-success">Registrarse</a></h3>
                     </div>
                     </form>
                 </div>
@@ -60,5 +60,5 @@
         </div>
     </center>
 </body>
-
-</html>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="../js/user/login.js"></script>
