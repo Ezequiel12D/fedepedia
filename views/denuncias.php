@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-
 <head>
     <title>Página de Denuncias</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -58,5 +55,3 @@
             </div>
         </div>
 </body>
-
-</html>
