@@ -74,6 +74,7 @@ $(document).ready(function () {
                 success:function(r){
                     if(r.message == "Se ha registrado correctamente"){                                
                         console.log(r);
+                        window.location.href = '../views/layout.php'; 
                     }else{
                         alert("Error al registrarce");
                         console.log(r);

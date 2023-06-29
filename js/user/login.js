@@ -58,6 +58,7 @@ $(document).ready(function () {
                 success:function(r){
                     if(r.message == "Ha iniciado sesion correctamente"){                                
                         console.log(r);
+                        window.location.href = '../views/layout.php'; 
                     }else{
                         console.log("Error al iniciar sesion");
                         console.log(r);
