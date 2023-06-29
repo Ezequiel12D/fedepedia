@@ -173,3 +173,53 @@ body {
 .low-btn-container .btn-send {
     right: 600px;
 }
+
+.profile{
+    margin-top: 30px;
+}
+
+#btn-modal--style{
+    margin-left: 50px;
+    width: 25px;
+    height: 25px;
+}
+#btn-modal{
+    display: none;
+}
+.lbl-modal{
+    cursor: pointer;
+}
+
+#btn-modal:checked~ .modal-menu{
+    visibility: visible;
+}
+
+.modal-menu{
+    margin-right: 16%;
+    margin-top: 10px;
+    position: fixed;
+    width: 150px;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border: black solid 1px;
+    border-radius: 3px;
+    visibility: hidden;
+}
+
+.modal-menu label{
+    position: absolute;
+    margin-left: 100%;
+    top: 0;
+
+}
+
+.modal-menu header{    
+    display: grid;
+    place-content: center;
+}
+
+.modal-menu .content{    
+    margin-left: 30px;
+    z-index: 1;
+}

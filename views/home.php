@@ -32,39 +32,38 @@
             <li><a href="../../views/denuncias.php">DENUNCIAS</a></li>
         </ul>
     </div>
-
 </div>
 
 <div id="container__center">
     <?php require "article.php"; ?>
 </div>
 
-
-<div id="right-bar">
-    <div class="container--menu-btn" onclick="myFunction(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
+<div id="right-bar">    
+    <!-- inicio modal-->    
+    <div id="btn-modal--style">
+        <input type="checkbox" id="btn-modal">
+        <label for="btn-modal"class="lbl-modal"><h1>...</h1></label>
     </div>
-    <script>
-        function myFunction(x) {
-            x.classList.toggle("change");
-        }
-    </script>
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="modal-close" onclick="closeModal()">&times;</span>
-            <h2>Iniciar sesión o registrarse</h2>
-            <button onclick="login()">Iniciar sesión</button>
-            <button onclick="register()">Registrarse</button>
+        
+    <div class="modal-menu">
+        <div class="container-modal">
+                <header>user-name</header>                
+                <label for="btn-modal">X</label>
+                <div class="content">
+                    <a href="../../views/register.php">Registrarse</a><br>
+                    <a href="../../views/setting.php">Iniciar Sesion</a>
+                </div>
         </div>
     </div>
 
 
-
-    <div class="profile-pic-btn">
-        <div id="user_profile_pic"><img src="../../images/profile/default.png" alt="profile_pic"></div>
+    <!-- fin modal-->
+    <div class="profile">
+        <div class="profile-pic-btn">
+            <div id="user_profile_pic"><img src="../../images/profile/default.png" alt="profile_pic"></div>        
+        </div>
+        <div id="user-name"><b>user-name</b></div>
     </div>
-    <div id="user-name"><b>user-name</b></div>
+    
 </div>
 </div>
