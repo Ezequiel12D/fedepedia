@@ -48,7 +48,7 @@
                             <label for="observacion">Observación:</label>
                             <textarea class="form-control" id="denuncia" rows="5" placeholder="Describe la denuncia"></textarea>
                         </div>
-                        <a href="../views/home.php" class="btn btn-secondary btn-cancel">Cancelar</a>
+                        <a href="../controllers/web/home.php" class="btn btn-secondary btn-cancel">Cancelar</a>
                         <button type="submit" class="btn btn-primary">Enviar</button>
                     </form>
                 </div>
