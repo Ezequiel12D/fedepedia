@@ -39,23 +39,23 @@
 </div>
 
 <div id="right-bar">    
+    
     <!-- inicio modal-->    
-    <div id="btn-modal--style">
-        <input type="checkbox" id="btn-modal">
-        <label for="btn-modal"class="lbl-modal"><h1>...</h1></label>
-    </div>
+            
+    <img id="btn-modal--style" class="three_dots" src="../../images/three-dots.svg" alt="" srcset="">
         
-    <div class="modal-menu">
+    <div class="modal-menu" id="home__modal-menu">
         <div class="container-modal">
-                <header>user-name</header>                
-                <label for="btn-modal">X</label>
-                <div class="content">
+                <header class="modal-item">user-name</header>                
+                
+                <label class="btn-close" id="home-modal-close-btn"  for="btn-modal">X</label>
+                
+                <div class="content modal-item">
                     <a href="../../views/register.php">Registrarse</a><br>
                     <a href="../../views/setting.php">Iniciar Sesion</a>
                 </div>
         </div>
     </div>
-
 
     <!-- fin modal-->
     <div class="profile">
@@ -64,6 +64,5 @@
         </div>
         <div id="user-name"><b>user-name</b></div>
     </div>
-    
-</div>
+  
 </div>

@@ -61,7 +61,7 @@
 
 .profile-pic-btn {
 
-    position: relative;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -178,48 +178,42 @@ body {
     margin-top: 30px;
 }
 
-#btn-modal--style{
-    margin-left: 50px;
-    width: 25px;
-    height: 25px;
-}
-#btn-modal{
+.modal-menu{
+    z-index: 9;
+    position: absolute;    
+
+    border: 1px black solid;
+    background-color: #FCFCFC;
+
+    width: 200px;
+    height: 150px;
+    
+    margin-left: 30px;
+    margin-top: 35px;
+
     display: none;
 }
-.lbl-modal{
-    cursor: pointer;
+
+.container-modal .modal-item{
+    display: inline-block;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 50px;
+    
 }
 
-#btn-modal:checked~ .modal-menu{
-    visibility: visible;
-}
-
-.modal-menu{
-    margin-right: 16%;
-    margin-top: 10px;
-    position: fixed;
-    width: 150px;
-    top: 0;
-    right: 0;
-    background-color: white;
-    border: black solid 1px;
-    border-radius: 3px;
-    visibility: hidden;
-}
-
-.modal-menu label{
+.container-modal .btn-close{
     position: absolute;
-    margin-left: 100%;
-    top: 0;
-
+    right: 5%;    
 }
 
-.modal-menu header{    
-    display: grid;
-    place-content: center;
+.container-modal .content{
+    margin-top: 25px;  
 }
 
-.modal-menu .content{    
-    margin-left: 30px;
-    z-index: 1;
+.three_dots {    
+    cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 50px ;        
 }
