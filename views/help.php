@@ -22,9 +22,7 @@
         <div class="lh"></div>
         <div id="link-bar">
             <ul>
-                <li><a href="">Portada</a></li>
-                <li><a href="../views/articlefeatured.php">Articulos destacados</a></li>
-                <li><a href="../views/articlenews.php">Articulos nuevos</a></li>
+
                 <li><a href="../views/articlerandom.php">Articulo aleatorio</li>
                 <li><a href="../views/setting.php">Configuracion</a></li>
                 <li><a href="../views/createarticles.php">Crear articulo</a></li>

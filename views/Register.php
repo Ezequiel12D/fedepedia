@@ -14,12 +14,10 @@
             max-width: 120px;
             margin: auto;
         }
-
-
-                .label-input {
-                    display: flex;
-                    justify-content: space-between;
-                }
+        .label-input {
+            display: flex;
+            justify-content: space-between;
+        }
             </style>
 </head>
 
@@ -32,7 +30,7 @@
                     <div class="bd-example-snippet bd-code-snippet" text-align:center>
                         <a href="../views/layout.php"><img id="" src="../images/logo.png" width="325" height="200"></a>
                         <br>
-                        <form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;" class="form-control" id="reg-form">
+                        <form style="border:1px solid black;padding:1rem;border-radius: 0.5rem;" class="form-control" id="reg-form"  action="../controllers/web/register.php" method="post">
                         <h2>Registrarse</h2>
                         <br>
                             <div class="center">

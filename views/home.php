@@ -19,9 +19,6 @@
     <div class="lh" style="top:35%"></div>
     <div id="link-bar">
         <ul>
-            <li><a href="">Portada</a></li>
-            <li><a href="../../views/articlefeatured.php">Articulos destacados</a></li>
-            <li><a href="../../views/articlenews.php">Articulos nuevos</a></li>
             <li><a href="../../views/articlerandom.php">Articulo aleatorio</li>
             <li><a href="../../views/setting.php">Configuracion</a></li>
             <li><a href="../../views/createarticles.php">Crear articulo</a></li>
@@ -38,21 +35,24 @@
     <?php require "article.php"; ?>
 </div>
 
-<div id="right-bar">    
-    <!-- inicio modal-->    
-    <div id="btn-modal--style">
-        <input type="checkbox" id="btn-modal">
-        <label for="btn-modal"class="lbl-modal"><h1>...</h1></label>
+<div id="right-bar">
+    <!-- inicio modal-->
+    <div class="dropdown" id="btn-modal--style">
+        <span>...</span>
+        <div class="dropdown-content">
+            <a href="../../views/login.php" id="login-link">Iniciar Sesión</a>
+            <a href="../../views/register.php" id="register-link">Registrar</a>
+        </div>
     </div>
-        
+
     <div class="modal-menu">
         <div class="container-modal">
-                <header>user-name</header>                
-                <label for="btn-modal">X</label>
-                <div class="content">
-                    <a href="../../views/register.php">Registrarse</a><br>
-                    <a href="../../views/setting.php">Iniciar Sesion</a>
-                </div>
+            <header>user-name</header>
+            <label for="btn-modal">X</label>
+            <div class="content">
+                <a href="../../views/register.php">Registrarse</a><br>
+                <a href="../../views/setting.php">Iniciar Sesion</a>
+            </div>
         </div>
     </div>
 
@@ -60,10 +60,10 @@
     <!-- fin modal-->
     <div class="profile">
         <div class="profile-pic-btn">
-            <div id="user_profile_pic"><img src="../../images/profile/default.png" alt="profile_pic"></div>        
+            <div id="user_profile_pic"><img src="../../images/profile/default.png" alt="profile_pic"></div>
         </div>
         <div id="user-name"><b>user-name</b></div>
     </div>
-    
+
 </div>
 </div>

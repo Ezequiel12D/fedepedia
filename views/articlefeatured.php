@@ -7,10 +7,6 @@
 
     <nav>
     <ul>
-        <li><a href="index.php">Portada</a></li>
-        <li><a href="articlefeatured.php">Artículos destacados</a></li>
-        <li><a href="articlenews.php">Artículos nuevos</a></li>
-        <li><a href="articlerandom.php">Artículo aleatorio</a></li>
         <li><a href="setting.php">Configuración</a></li>
         <li><a href="createarticles.php">Crear artículo</a></li>
         <li><a href="myarticles.php">Mis artículos</a></li>
