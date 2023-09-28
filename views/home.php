@@ -35,27 +35,24 @@
     <?php require "article.php"; ?>
 </div>
 
-<div id="right-bar">
-    <!-- inicio modal-->
-    <div class="dropdown" id="btn-modal--style">
-        <span>...</span>
-        <div class="dropdown-content">
-            <a href="../../views/login.php" id="login-link">Iniciar Sesión</a>
-            <a href="../../views/register.php" id="register-link">Registrar</a>
-        </div>
-    </div>
-
-    <div class="modal-menu">
+<div id="right-bar">    
+    
+    <!-- inicio modal-->    
+            
+    <img id="btn-modal--style" class="three_dots" src="../../images/three-dots.svg" alt="" srcset="">
+        
+    <div class="modal-menu" id="home__modal-menu">
         <div class="container-modal">
-            <header>user-name</header>
-            <label for="btn-modal">X</label>
-            <div class="content">
-                <a href="../../views/register.php">Registrarse</a><br>
-                <a href="../../views/setting.php">Iniciar Sesion</a>
-            </div>
+                <header class="modal-item">user-name</header>                
+                
+                <label class="btn-close" id="home-modal-close-btn"  for="btn-modal">X</label>
+                
+                <div class="content modal-item">
+                    <a href="../../views/register.php">Registrarse</a><br>
+                    <a href="../../views/setting.php">Iniciar Sesion</a>
+                </div>
         </div>
     </div>
-
 
     <!-- fin modal-->
     <div class="profile">
@@ -64,6 +61,4 @@
         </div>
         <div id="user-name"><b>user-name</b></div>
     </div>
-
-</div>
 </div>

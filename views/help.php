@@ -82,7 +82,7 @@
         </div>
         <div class="row justify-content-end mt-5">
             <div class="col-md-6 text-right">
-                <a href="../views/home.php" class="btn btn-secondary ">Cancelar</a>
+                <a href="../controllers/web/home.php" class="btn btn-secondary ">Cancelar</a>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </div>
         </div>
