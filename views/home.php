@@ -22,11 +22,11 @@
             <li><a href="../../views/articlerandom.php">Articulo aleatorio</li>
             <li><a href="../../views/setting.php">Configuracion</a></li>
             <li><a href="../../views/createarticles.php">Crear articulo</a></li>
-            <li><a href="../../views/myarticles.php">Mis articulos</a></li>
-            <li><a href="../../views/savedarticles.php">Articulos guardados</a></li>
             <li><a href="">Filtrar</a></li>
+            <li><a href="../../views/denuncias.php">Discusiones</a></li>
             <li><a href="../../views/help.php">Ayuda</a></li>
-            <li><a href="../../views/denuncias.php">DENUNCIAS</a></li>
+            <li><a href="../../views/denuncias.php">Denuncias</a></li>
+        
         </ul>
     </div>
 </div>
@@ -49,7 +49,7 @@
                 
                 <div class="content modal-item">
                     <a href="../../views/register.php">Registrarse</a><br>
-                    <a href="../../views/setting.php">Iniciar Sesion</a>
+                    <a href="../../views/login.php">Iniciar Sesion</a>
                 </div>
         </div>
     </div>
