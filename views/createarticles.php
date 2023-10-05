@@ -17,7 +17,7 @@
             <label for="imagen">Imagen:</label>
             <input type="file" id="imagen" name="imagen" accept="image/*">
             <button type="submit" name="submit">Subir Publicación</button>
-            <button type="button" onclick="window.location.href='home.php'">Arrepentir</button>
+            <button type="button" onclick="window.location.href='../controllers/web/home.php'">Arrepentir</button>
         </form>
     </div>
 </body>

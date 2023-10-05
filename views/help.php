@@ -22,9 +22,7 @@
         <div class="lh"></div>
         <div id="link-bar">
             <ul>
-                <li><a href="">Portada</a></li>
-                <li><a href="../views/articlefeatured.php">Articulos destacados</a></li>
-                <li><a href="../views/articlenews.php">Articulos nuevos</a></li>
+
                 <li><a href="../views/articlerandom.php">Articulo aleatorio</li>
                 <li><a href="../views/setting.php">Configuracion</a></li>
                 <li><a href="../views/createarticles.php">Crear articulo</a></li>
@@ -84,8 +82,8 @@
         </div>
         <div class="row justify-content-end mt-5">
             <div class="col-md-6 text-right">
-                <a href="../controllers/web/home.php" class="btn btn-secondary ">Cancelar</a>
                 <button type="submit" class="btn btn-primary">Enviar</button>
+                <a href="../controllers/web/home.php" class="btn btn-secondary">Cancelar</a>
             </div>
         </div>
 </body>
