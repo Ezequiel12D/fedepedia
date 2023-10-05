@@ -74,9 +74,9 @@ $(document).ready(function () {
                 success:function(r){
                     if(r.message == "Se ha registrado correctamente"){                                
                         console.log(r);
-                        window.location.href = '../views/layout.php'; 
+                        window.location.href = '../controllers/web/home.php'; 
                     }else{
-                        alert("Error al registrarce");
+                        alert("Error al registrarce" + r.message);
                         console.log(r);
                     }
                 }

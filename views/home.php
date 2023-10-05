@@ -1,3 +1,4 @@
+<?php session_start() ?>
 <div id="left-bar">
     <link rel="icon" type="image/x-icon" href="../../images/logo.png">
     <div class="container-logo">
@@ -43,22 +44,39 @@
         
     <div class="modal-menu" id="home__modal-menu">
         <div class="container-modal">
-                <header class="modal-item">user-name</header>                
+                <header class="modal-item"> <?php echo($_SESSION['user']['username']); ?> </header>                
                 
-                <label class="btn-close" id="home-modal-close-btn"  for="btn-modal">X</label>
+                <label class="btn-close" id="home-modal-close-btn" for="btn-modal">X</label>
                 
                 <div class="content modal-item">
-                    <a href="../../views/register.php">Registrarse</a><br>
-                    <a href="../../views/login.php">Iniciar Sesion</a>
+                    <?php 
+                        if(!isset($_SESSION)){
+                            echo '<a href="../../views/register.php">Registrarse</a><br>
+                            <a href="../../views/login.php">Iniciar Sesion</a>';
+                        }else{
+                            echo '<button id="logout_btn">Cerrar Sesión</button>';
+                        }
+                    ?>
+                    
                 </div>
         </div>
     </div>
 
     <!-- fin modal-->
+    
     <div class="profile">
         <div class="profile-pic-btn">
             <div id="user_profile_pic"><img src="../../images/profile/default.png" alt="profile_pic"></div>
         </div>
-        <div id="user-name"><b>user-name</b></div>
+        <div id="user-name"><b> <?php echo($_SESSION['user']['username']); ?> </b></div>
     </div>
+
+    <div class = "addImg">
+        <?php // require "../../controllers/web/addsManage.php"; ?>
+    </div>
+
+
+
+
+
 </div>

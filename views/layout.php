@@ -19,7 +19,9 @@
     
 <!--Comienza contenido especifico-->
     <div id="container">
-        <?php require_once($section . ".php") ?>
+        <?php 
+            require_once($section . ".php");                    
+         ?>
     </div>
 <!--Termina contenido especifico-->
     
