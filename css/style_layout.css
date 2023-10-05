@@ -120,6 +120,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    position: relative;
 }
 
 
@@ -232,3 +233,20 @@ body {
     height: 100%;
     object-fit: cover;
   }
+
+.modal-logout{
+    z-index: 10;
+    background-color: red;
+    margin-top: 250px;
+    align-items: center;
+}
+
+.form-control {
+    max-width: 300px;
+    margin: auto;
+}
+
+.label-input {
+    display: flex;
+    justify-content: space-between;
+}

@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     addEventListener("keyup", function(e) { 
 
-        var nameEmail = document.getElementById("EmailUsername");
+        var nameEmail = document.getElementById("UsernameEmail");
         var password = document.getElementById("Password");
                 
         //elimino los espacios        
@@ -48,6 +48,7 @@ $(document).ready(function () {
     });
 
     $('#login-btn').click(function(e){             
+        console.log(usernameValue + " " + passwordValue + " " + emailValue);
         e.preventDefault();
         
         $.ajax({
@@ -58,7 +59,7 @@ $(document).ready(function () {
                 success:function(r){
                     if(r.message == "Ha iniciado sesion correctamente"){                                
                         console.log(r);
-                        window.location.href = '../views/layout.php'; 
+                        window.location.href = '../../controlers/web/home.php'; 
                     }else{
                         console.log("Error al iniciar sesion");
                         console.log(r);

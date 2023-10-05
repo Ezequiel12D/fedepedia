@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 if (!empty($_POST)) {
     if(!empty($_POST['username'])){
         $username = trim($_POST['username']);  
@@ -30,7 +30,12 @@ if (!empty($_POST)) {
     if(mysqli_num_rows($resultCheckLogin) === 1){    
 
         $data = mysqli_fetch_assoc($resultCheckLogin);
-        $sqlLogin = 'SELECT users.*, users_roles.rol_id FROM users LEFT JOIN users_roles ON users.id = users_roles.user_id WHERE users.email = "'. $data['email'] .'" AND users.password = "'. sha1($password).'"';
+
+        if(isset($data['username'])){
+            $sqlLogin = 'SELECT users.*, users_roles.rol_id FROM users LEFT JOIN users_roles ON users.id = users_roles.user_id WHERE users.username = "'. ($data['username'])  .'" AND users.password = "'. sha1($password).'"';
+        }else{
+            $sqlLogin = 'SELECT users.*, users_roles.rol_id FROM users LEFT JOIN users_roles ON users.id = users_roles.user_id WHERE users.email = "'. ($data['email'])  .'" AND users.password = "'. sha1($password).'"';
+        }        
         $resultLogin = mysqli_query($conn,$sqlLogin);
 
         if(!$resultLogin){
@@ -38,7 +43,8 @@ if (!empty($_POST)) {
             exit("Error de consulta" . mysqli_error($conn)); 
         }else{
             $message['message'] = "Ha iniciado sesion correctamente";
-            $message['userData'] = mysqli_fetch_all($resultLogin);
+            session_start();
+            $_SESSION[] = $data;
         }
     }
 
@@ -47,5 +53,4 @@ if (!empty($_POST)) {
 }
 
 return print_r(json_encode($message));
-
 ?>

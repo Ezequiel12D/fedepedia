@@ -1,4 +1,5 @@
 <?php session_start() ?>
+
 <div id="left-bar">
     <link rel="icon" type="image/x-icon" href="../../images/logo.png">
     <div class="container-logo">
@@ -37,7 +38,6 @@
 </div>
 
 <div id="right-bar">    
-    
     <!-- inicio modal-->    
             
     <img id="btn-modal--style" class="three_dots" src="../../images/three-dots.svg" alt="" srcset="">
@@ -50,7 +50,7 @@
                 
                 <div class="content modal-item">
                     <?php 
-                        if(!isset($_SESSION)){
+                        if(!isset($_SESSION['user'])){
                             echo '<a href="../../views/register.php">Registrarse</a><br>
                             <a href="../../views/login.php">Iniciar Sesion</a>';
                         }else{
@@ -74,9 +74,5 @@
     <div class = "addImg">
         <?php // require "../../controllers/web/addsManage.php"; ?>
     </div>
-
-
-
-
 
 </div>

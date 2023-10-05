@@ -1,1 +1,0 @@
-En esta carpeta iran los procesos de backend 

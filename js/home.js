@@ -4,18 +4,23 @@ $(document).ready(function () {
     var buttonClose = document.getElementById('home-modal-close-btn'); 
     var buttonLogout = document.getElementById('logout_btn');        
     
-    var modal = document.getElementById("home__modal-menu");
+    var modalMenu = document.getElementById("home__modal-menu");
+    var modalLogout = document.getElementById("home__modal-logout");
 
     buttonClose.onclick = function () {
-        modal.style.display = "none";
+        modalMenu.style.display = "none";
     }
 
     buttonOpen.onclick = function () {
-        modal.style.display = "block";
+        modalMenu.style.display = "block";
     }
-
-
-
+    /*
+    buttonLogout.click(function(e){             
+        e.preventDefault();
+        modal.style.display = "none";
+        
+    })
+    */
 
 
 })
