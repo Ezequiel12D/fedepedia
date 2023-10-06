@@ -59,7 +59,7 @@ $(document).ready(function () {
                 success:function(r){
                     if(r.message == "Ha iniciado sesion correctamente"){                                
                         console.log(r);
-                        window.location.href = '../../controlers/web/home.php'; 
+                        window.location.href = '../controllers/web/home.php'; 
                     }else{
                         console.log("Error al iniciar sesion");
                         console.log(r);

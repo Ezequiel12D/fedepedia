@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 if (!empty($_POST)) {
     if(!empty($_POST['username'])){
         $username = trim($_POST['username']);  
@@ -43,8 +43,8 @@ if (!empty($_POST)) {
             exit("Error de consulta" . mysqli_error($conn)); 
         }else{
             $message['message'] = "Ha iniciado sesion correctamente";
-            session_start();
-            $_SESSION[] = $data;
+            $_SESSION['user'] = $data;
+
         }
     }
 
