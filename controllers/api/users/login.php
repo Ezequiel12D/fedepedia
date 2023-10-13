@@ -15,10 +15,10 @@ if (!empty($_POST)) {
 
     if(!empty($_POST['username']))
     {
-        $sqlCheckLogin = 'SELECT username FROM users WHERE username = "'. $username .'" AND password = "'. sha1($password) .'"';
+        $sqlCheckLogin = 'SELECT username FROM users WHERE username = "'. $username .'" AND password = "'. sha1($password) .'" AND deleted_at IS NULL';
         $resultCheckLogin = mysqli_query($conn, $sqlCheckLogin);
     }elseif(!empty($_POST['email'])){
-        $sqlCheckLogin = 'SELECT email FROM users WHERE email = "'. $email .'" AND password = "'. sha1($password) .'"';
+        $sqlCheckLogin = 'SELECT email FROM users WHERE email = "'. $email .'" AND password = "'. sha1($password) .'" AND deleted_at IS NULL';
         $resultCheckLogin = mysqli_query($conn, $sqlCheckLogin);
     }
     
