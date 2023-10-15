@@ -37,12 +37,16 @@ if (!empty($_POST)) {
                     $message['id'] = $rowLogin['id'];
                     $rolRegister = 'INSERT INTO users_roles(user_id, rol_id) VALUES("'. $rowLogin['id'] .'" , 1 )';
                     $rolRegisterResult = mysqli_query($conn,$rolRegister);
+                    
                     if(!$rolRegister){
                         $message['error'] = "No se ha registrado el rol";
                         exit("Error de consulta" . mysqli_error($conn));                        
-                    }                    
-                }
-                $_SESSION['user'] = $rowLogin;
+                    }else{
+                        $selectLogin = 'SELECT users.*, users_roles.rol_id FROM users LEFT JOIN users_roles ON users.id = users_roles.user_id WHERE users.username = "'. ($username)  .'" AND users.password = "'. sha1($password).'"';
+                        $rowLogin = mysqli_query($conn,$selectLogin);
+                    }
+                }              
+                $_SESSION['user'] = mysqli_fetch_all($rowLogin, MYSQLI_ASSOC);
                 $message['message'] = "Se ha registrado correctamente";
             }else{
                 exit("Error de consulta" . mysqli_error($conn));

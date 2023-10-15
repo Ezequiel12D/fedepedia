@@ -43,11 +43,9 @@ if (!empty($_POST)) {
             exit("Error de consulta" . mysqli_error($conn)); 
         }else{
             $message['message'] = "Ha iniciado sesion correctamente";
-            $_SESSION['user'] = $data;
-
+            $_SESSION['user'] = mysqli_fetch_all($resultLogin, MYSQLI_ASSOC);
         }
     }
-
 }else{
     $message['error'] = "Formulario vacio";
 }

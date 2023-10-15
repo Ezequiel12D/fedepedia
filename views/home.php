@@ -1,4 +1,4 @@
-<?php session_start() ?>
+<?php session_start(); ?>    
 
 <div id="left-bar">
     <link rel="icon" type="image/x-icon" href="../../images/logo.png">
@@ -28,7 +28,9 @@
             <li><a href="../../views/denuncias.php">Discusiones</a></li>
             <li><a href="../../views/help.php">Ayuda</a></li>
             <li><a href="../../views/denuncias.php">Denuncias</a></li>
-        
+            <?php if(isset($_SESSION['user']) && $_SESSION['user'][0]['rol_id'] != 1){ 
+                ?> <li><a href="../../controllers/web/add_ad.php">Añadir Publicidad</a></li> <?php
+            }?>                    
         </ul>
     </div>
 </div>
@@ -44,7 +46,7 @@
         
     <div class="modal-menu" id="home__modal-menu">
         <div class="container-modal">
-                <header class="modal-item"> <?php echo isset($_SESSION['user']) ? ($_SESSION['user']['username']) : "no log"; ?> </header>                
+                <header class="modal-item"> <?php echo isset($_SESSION['user']) ? ($_SESSION['user'][0]['username']) : "no log"; ?> </header>                
                 
                 <label class="btn-close" id="home-modal-close-btn" for="btn-modal">X</label>
                 
@@ -68,7 +70,7 @@
         <div class="profile-pic-btn">
             <div id="user_profile_pic"><img src="../../images/profile/default.png" alt="profile_pic"></div>
         </div>
-        <div id="user-name"><b> <?php echo isset($_SESSION['user']) ? ($_SESSION['user']['username']) : "no log"; ?> </b></div>
+        <div id="user-name"><b> <?php echo isset($_SESSION['user']) ? ($_SESSION['user'][0]['username']) : "no log"; ?> </b></div>
     </div>
 
     <div class = "addImg">
